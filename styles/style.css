@@ -411,6 +411,28 @@
     color: rgba(255, 255, 255, 0.5);
     
   }
+  /* our instrument section styles  */
+  .Instrument-pic{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+  }
+  .instrument-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .Instrument-pic > img{
+    width: 326px;
+    height: 272px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  .our-instrument{
+    max-width: 1440px;
+  }
+
   @media screen and (max-width:576px){
 
     /* Header section responsive  */
@@ -576,4 +598,9 @@
        .bmi-content{
         padding-left: 10px;
        }
+       /* our instument responsive  */
+       .Instrument-pic {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
+    }
 }
