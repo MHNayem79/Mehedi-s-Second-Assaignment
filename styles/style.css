@@ -1,0 +1,579 @@
+
+
+
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 0px;
+    background-color: black;
+  }
+  /* shared styles */
+  .display-flex{
+      display: flex;
+  }
+  .btn-primary{
+      max-width: 224px;
+      border: 1px solid #E6533C;
+      background-color: #E6533C;
+      border-radius: 2.7rem;
+      padding: 16px 46px;
+      color: white;
+      font-weight: 600;
+      font-size: 1.1rem;
+  }
+  .section-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+  }
+  .section-description{
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  main{
+    background-color: black;
+  }
+  /* header styles */
+  .header{
+      max-width: 1440px;
+      background-color: rgba(17, 17, 17, 1);
+      height: 710px;
+  }
+  /* nav styles */
+  .navbar{
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1060px;
+      align-items: center;
+      margin: 0 auto;
+  }
+  .nav-title{
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #E6533C;
+  }
+  .nav-icon-container{
+      list-style: none;
+      
+      gap: 47px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 39px;
+      padding: 12px 0px;
+      padding-left: 4px;
+      padding-right: 20px;
+      
+  }
+  .nav-icon-container a{
+      text-decoration: none;
+      gap: 30px;
+      color: white;
+      max-width: 465px;
+  }
+  #home{
+      border: 1px solid #E6533C;
+      border-radius: 46px;
+      background-color: #E6533C;
+      padding: 8px 20px;
+  }
+  /* banner styles */
+  .banner-container{
+      max-width: 1060px;
+      justify-content: space-between;
+      margin: 0 auto;
+      align-items: center;
+  }
+  .banner-title{
+      font-size: 4.9rem;
+      font-weight: 900;
+      max-width: 520px;
+      margin: 0px;}
+  .banner-title > #shape{
+      font-family: 'Miama', sans-serif;
+      font-weight: 400;
+      font-size: 9.5rem;
+      line-height: 85%;
+      margin-bottom: 28px;
+  }
+  .banner-description{
+      max-width: 520px;
+      margin-bottom: 28px;
+  
+  }
+  .btn-primary-2{
+      max-width: 224px;
+      border: 1px solid white;
+      border-radius: 2.7rem;
+      background-color: black;
+      padding: 16px 46px;
+      color: white;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-left: 14px;
+  }
+  .box-1{
+      position: absolute;
+      top: 230px;
+      right: 100px;
+      border-radius: 12px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 17px 23px 16px 24px;
+  
+  }
+  .box-2{
+      position: absolute;
+      bottom: -10px;
+      right: 425px;
+      border-radius: 12px;
+      background-color: rgba(48, 48, 48, 0.54);
+      padding: 20px 23px 20px 75px;
+  }
+  
+  .number{
+      font-size: 2.3rem;
+      font-weight: 900;
+      
+  }
+  .number-2{
+      font-size: 1.5rem;
+      font-weight: 900;
+  }
+  .free{
+      font-size: .9rem;
+      font-weight: 400;
+      
+  }
+  .circle{
+      height: 40px;
+      width: 40px;
+      border: 1px solid #E6533C;
+      border-radius: 500px;
+      background-color: #E6533C;
+      position: absolute;
+      bottom: 29px;
+      right: 555px;
+  }
+  /* Hamburger styles */
+
+  /* Hide Checkbox */
+.menu-toggle {
+    display: none;
+  }
+  
+  /* Hamburger Icon */
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px auto;
+    transition: background 0.3s;
+  }
+  
+  /* Mobile Menu Styles */
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mobile-menu li {
+    margin: 20px 0;
+  }
+  
+  .mobile-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .mobile-menu-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  /* Show Mobile Menu when Checkbox is Checked */
+  .menu-toggle:checked ~ .mobile-menu {
+    display: block;
+  }
+
+  /* Your habit Section styles */
+  main > section{
+    background-color: black;
+  }
+  .Havit{
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .card-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 100px;
+  }
+  .card > img{
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+  }
+  /* Run styles  */
+  .run-image{
+    width: 366px;
+    height: 312px;
+    overflow: hidden;
+    position: relative;
+    margin: 30px 32px 29px 0px;
+    border-radius: 18px;
+  }
+  .run-image > img{
+        position: absolute;
+        top: -170px; 
+        left: -640px;
+        width: 1300px;
+        height: 850px;
+ }
+
+  .run-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+  }
+  .run{
+    max-width: 443px;
+    margin: 41px 0px 40px 54px ;
+  }
+  /* our teams starts here */
+  .our-team{
+    width: 1060px;
+    height: 872px;
+    margin: 0 auto;
+  }
+  .our-team-content{
+    text-align: center;
+    max-width: 670px;
+    margin: 0 auto;
+  }
+  .v-card-container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    max-width: 1060px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    margin-right: 0px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    
+  }
+  .v-card img{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+    margin-bottom: 10px;
+
+  }
+  .v-card{
+    display: flex;
+  }
+  .v-card>.text{
+    margin-top: 180px;
+    margin-left: -310px;
+  }
+  .name{
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .job{
+    margin-top: 0px;
+  }
+  /* footer styles starts here */
+  .footer{
+    max-width: 1440px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .footer-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .column-container{
+    width: 514px;
+    justify-content: space-between;
+
+  }
+  .column-title{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .service{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .footer-content{
+    max-width: 443px;
+  }
+  .footer-title{
+    font-size: 4.4rem;
+    font-weight: 800;
+    color: #E6533C;
+  }
+  hr{
+    max-width: 1060px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  .end{
+    max-width: 318px;
+    margin: 0px auto;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 35px 0px;
+  }
+  /* bmi calculator styles */
+  td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    padding-right: 25px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .th{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+  }
+  table{
+    border-collapse: collapse;
+    max-width: 310px;
+  }
+  .bmi-content{
+    max-width: 671px;
+    margin: 0 auto;
+  }
+  .bg{
+    max-width: 1440px;
+    background-color: rgba(34, 34, 34, 1);
+    padding-bottom: 50px;
+  }
+  .bmi-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .bmi{
+    max-width: 577px;
+  }
+  .bmi-title{
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+  .box{
+    width: 281px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin: 10px;
+    margin-left: 0px;
+  }
+  form>select , form>div>select{
+    color: rgba(255, 255, 255, 0.5);
+    
+  }
+  @media screen and (max-width:576px){
+
+    /* Header section responsive  */
+
+    .inter{
+        margin: 0px;
+    }
+    .header{
+        height: 1024px;
+        padding: 20px;
+        padding-bottom: 0px;
+
+    }
+    .btn-container{
+        display: flex;
+    }
+      .banner-container{
+          flex-direction: column;
+      }
+      .banner-title{
+          font-size: 2.2rem;
+          width: 70%;
+      }
+      .banner-title > #shape{
+          font-size: 4rem;
+      }
+      .banner-description{
+          max-width: 274px;
+          font-size: 1rem;
+          color: rgba(255, 255, 255, 0.5);
+      }
+      .nav-icon-container{
+          flex-direction: column;
+      }
+      /* hemburger responsive */
+      .navbar .nav-icon-container {
+        display: none;
+      }
+    
+      .hamburger {
+        display: block;
+      }
+      .box-1{
+        top: 500px;
+        right: 20px;
+        padding: 10px;
+    }
+    .box-2{
+        bottom: 110px;
+        right: 215px;
+        padding: 10px 10px 10px 65px;
+    }
+    .circle{
+        position: absolute;
+        bottom: 140px;
+        right: 330px;
+    }
+    .btn-primary{
+        padding: 20px;
+    }
+    .btn-primary-2{
+        padding: 20px;
+    }
+
+    /* your havit section responsive  */
+
+    .card-container{
+        flex-direction: column;
+
+    }
+    .card{
+        max-width: 231px;
+        margin: 0 auto;
+    }
+    .your-havit{
+        margin-top: 0px;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .havit-container{
+        width: 318px;
+        margin: 0 auto;
+    }
+    /* run responsive starts here  */
+    .run-container{
+        flex-direction: column;
+        max-width: 353px;
+        max-height: 531px;
+        border-radius: 18px;
+        background-color: rgba(34, 34, 34, 1);
+    }
+    .run{
+        max-width: 287px;
+        margin: 31px 33px 0px 33px;
+       }
+        .run-image img{
+            top: 0px;
+            left: 50px;
+            width: 287px;
+            height: 170px;
+            border-radius: 18px;
+       }
+       .join{
+        padding: 16px 100px;
+        max-width: 287px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        border: none;
+        margin-top: 24px;
+       }
+       /* our team responsive starts here  */
+       .v-card-container{
+        grid-template-columns: repeat(1 ,1fr);
+        width: 353px;
+        height: 1188px;
+        padding-right: 0px;
+        margin: 0 auto;
+       }
+       .our-team{
+        max-width: 394px;
+        margin-bottom: 600px;
+
+       }
+       .our-team-content{
+        width: 309px;
+       }
+       .v-card{
+        width: 313px;
+       }
+       .hidden{
+        display: none;
+       }
+       /* footer responsive starts here */
+       .column-container{
+        width: 100%;
+        flex-direction: column;
+       }
+       .footer-container{
+        flex-direction: column;
+        align-items: start;
+       }
+       .footer{
+        padding-left: 20px;
+       }
+       .footer-content{
+        max-width: 317px;
+        margin-left: 0px;
+        padding-left: 0px;
+       }
+       .end{
+        margin: 0px;
+       }
+       /* bmi calculator responsive here */
+       .bmi-container{
+        flex-direction: column;
+       }
+       .bg{
+        padding-left: 10px;
+       }
+       .box{
+        width: 50%;
+       }
+       .bmi-content{
+        padding-left: 10px;
+       }
+}
